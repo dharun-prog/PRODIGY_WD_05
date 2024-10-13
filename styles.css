@@ -1,0 +1,38 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background: papayawhip;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.weather p {
+    margin: 10px 1;
+}
+
+#refresh-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#refresh-btn:hover {
+    background-color: #175291;
+}
